@@ -7,7 +7,7 @@ const blogRoutes = require('./routes/blogRoutes');
 const app = express();
 
 // connect to mongodb & listen for requests
-const dbURI = "mongodb+srv://test:test123@cluster0.cqzsiig.mongodb.net/cluster0";
+const dbURI = "<<<--MongoDB Atlas Cluster Connectivity link-->>>";
 
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(result => app.listen(3000))
