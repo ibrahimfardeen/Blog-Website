@@ -1,5 +1,4 @@
 # Blog-Website
 Simple Blog Website
 
-This is a simple blog website written with javascript
-
+This is a simple blog website created using JavaScript & MongoDB
